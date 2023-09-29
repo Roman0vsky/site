@@ -1,0 +1,90 @@
+.modal__file-input {
+  position: absolute;
+  color: transparent;
+  width: 225px;
+  height: 36px;
+  top: 476px;
+  right: 32px;
+}
+.modal__file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.modal__file-input:active {
+  outline: 0;
+}
+.modal__file-input:hover::before {
+  background: #9e00ff;
+}
+.modal__file-input::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: attr(data-before);
+  color: #fff;
+  background: #000;
+  border-radius: 8px;
+  padding: 6px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 20px;
+  max-height: 36px;
+  max-width: 225px;
+}
+@media (max-width: 1024px) {
+  .modal__file-input::before {
+    font-size: 16px;
+  }
+}
+@media (max-width: 425px) {
+  .modal__file-input::before {
+    font-size: 14px;
+  }
+}
+.modal__file-input::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 32px;
+  height: 36px;
+  background: url("../../../../img/file input.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .modal__file-input {
+    top: 370px;
+  }
+}
+@media (max-width: 623px) {
+  .modal__file-input {
+    top: 500px;
+    width: 36px;
+  }
+  .modal__file-input::before {
+    color: #000;
+    max-width: 36px;
+  }
+}
+@media (max-width: 566px) {
+  .modal__file-input {
+    top: 520px;
+  }
+}
+@media (max-width: 425px) {
+  .modal__file-input {
+    font-size: 14px;
+    top: 480px;
+  }
+}
+@media (max-width: 359px) {
+  .modal__file-input {
+    top: 500px;
+  }
+}

@@ -1,0 +1,18 @@
+.nav__dropdown {
+  float: left;
+  overflow: hidden;
+
+  &:hover .nav__dropdown-content {
+    display: block;
+  }
+  &:hover .nav__dropdown-btn {
+    background-color: #000;
+    color: #fff;
+    transition: 0.15s ease;
+  }
+  &:hover .nav__dropdown-btn:hover {
+    background-color: #9e00ff;
+    color: #fff;
+    transition: 0.15s ease;
+  }
+}

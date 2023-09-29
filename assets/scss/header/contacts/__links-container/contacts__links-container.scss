@@ -1,0 +1,13 @@
+.contacts__links-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @media (max-width: 1160px) {
+    gap: 2px;
+  }
+
+  @media (max-width: 1024px) {
+    gap: 8px;
+  }
+}

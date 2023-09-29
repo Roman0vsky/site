@@ -1,0 +1,13 @@
+.banner__title {
+  display: flex;
+  justify-content: center;
+  font-size: 96px;
+
+  @media (max-width: 1024px) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 40px;
+  }
+}

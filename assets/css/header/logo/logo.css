@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Neue Machina bold";
+  font-style: bold;
+  src: url(../fonts/NeueMachina/NeueMachina-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Neue Machina ultrabold";
+  src: url(../fonts/NeueMachina/NeueMachina-Ultrabold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Raleway semibold";
+  src: url(../fonts/Raleway/Raleway-SemiBold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Raleway medium";
+  src: url(../fonts/Raleway/Raleway-Medium.ttf) format("ttf");
+}
+.logo {
+  font-size: 36px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  min-width: 209px;
+  margin-right: 24px;
+}
+@media (max-width: 1024px) {
+  .logo {
+    font-size: 24px;
+    min-width: 139px;
+  }
+}

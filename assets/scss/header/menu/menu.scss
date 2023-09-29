@@ -1,0 +1,27 @@
+.menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  transform: translateY(calc(-100% - 64px));
+  top: 64px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #f7ebff;
+  list-style: none;
+  padding-top: 24px;
+
+  @media (max-width: 1024px) {
+    display: flex;
+  }
+
+  @media (max-width: 425px) {
+    top: 55px;
+  }
+}
+
+.menu_show {
+  transform: translateY(0);
+  transition: 0.15s ease;
+}

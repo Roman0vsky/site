@@ -1,0 +1,45 @@
+.tests__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 20px;
+  background: #000;
+  border-radius: 16px;
+  height: 45px;
+  padding: 0 32px;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+  border: none;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 64px;
+}
+.tests__button:hover {
+  background: #9e00ff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+@media (max-width: 1024px) {
+  .tests__button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .tests__button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .tests__button.tests__button_second, .tests__button.tests__button_third {
+    border-radius: 8px 8px 16px 8px;
+  }
+}

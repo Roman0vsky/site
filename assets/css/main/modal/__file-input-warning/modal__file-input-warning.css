@@ -1,0 +1,39 @@
+.modal__file-input-warning {
+  position: absolute;
+  top: 476px;
+  right: 32px;
+  background: url("../../../../img/file input error.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+}
+@media (max-width: 1024px) {
+  .modal__file-input-warning {
+    top: 370px;
+  }
+}
+@media (max-width: 623px) {
+  .modal__file-input-warning {
+    top: 500px;
+  }
+}
+@media (max-width: 566px) {
+  .modal__file-input-warning {
+    top: 520px;
+  }
+}
+@media (max-width: 425px) {
+  .modal__file-input-warning {
+    top: 475px;
+  }
+}
+@media (max-width: 359px) {
+  .modal__file-input-warning {
+    top: 495px;
+  }
+}
+
+.modal__file-input-warning_hidden {
+  display: none;
+}

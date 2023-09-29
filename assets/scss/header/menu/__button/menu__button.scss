@@ -1,0 +1,17 @@
+.menu__button {
+  display: none;
+  min-width: 133px;
+  min-height: 23px;
+  max-width: 133px;
+  max-height: 23px;
+  z-index: 100;
+  background: #000;
+  border-radius: 24px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}

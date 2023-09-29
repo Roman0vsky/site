@@ -1,0 +1,14 @@
+.modal__title {
+  font-size: 72px;
+  line-height: 70px;
+
+  @media (max-width: 1024px) {
+    font-size: 54px;
+    line-height: 52px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 40px;
+    line-height: 39px;
+  }
+}

@@ -1,0 +1,32 @@
+.banner__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  height: 470px;
+  background: url("../../../../img/Group 5.png") left bottom no-repeat, url("../../../../img/Group 6.png") right bottom no-repeat;
+}
+@media (max-width: 1024px) {
+  .banner__wrapper {
+    padding: 0 16px;
+    background-size: 35%;
+  }
+}
+@media (max-width: 425px) {
+  .banner__wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 424px;
+  }
+}

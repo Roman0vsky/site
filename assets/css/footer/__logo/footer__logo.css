@@ -1,0 +1,17 @@
+.footer__logo {
+  font-size: 36px;
+  color: #fff;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+@media (max-width: 1354px) {
+  .footer__logo {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+}

@@ -1,0 +1,64 @@
+@import "./mixins";
+
+@font-face {
+  font-family: "Neue Machina";
+  src: url("../fonts/NeueMachina/NeueMachina-Bold.eot");
+  src: local("Neue Machina Bold"), local("NeueMachina-Bold"),
+    url("../fonts/NeueMachina/NeueMachina-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/NeueMachina/NeueMachina-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("../fonts/NeueMachina/NeueMachina-Ultrabold.eot");
+  src: local("Neue Machina Ultrabold"), local("NeueMachina-Ultrabold"),
+    url("../fonts/NeueMachina/NeueMachina-Ultrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/NeueMachina/NeueMachina-Ultrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Medium.eot");
+  src: local("Raleway Medium"), local("Raleway-Medium"),
+    url("../fonts/Raleway/Raleway-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-SemiBold.eot");
+  src: local("Raleway SemiBold"), local("Raleway-SemiBold"),
+    url("../fonts/Raleway/Raleway-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  font-weight: 500;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h1,
+h2 {
+  font-family: "Neue Machina";
+  font-weight: bold;
+}
+:root {
+  --swiper-theme-color: #000 !important;
+  --swiper-navigation-size: 32px !important;
+}

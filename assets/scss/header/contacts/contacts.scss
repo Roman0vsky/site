@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  gap: 48px;
+  // flex-shrink: 2;
+
+  @media (max-width: 1200px) {
+    gap: 0;
+    justify-content: space-between;
+    max-width: 415px;
+    width: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 425px) {
+  }
+}
+
+.contacts_menu {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 16px;
+  margin: 70px auto 16px;
+}

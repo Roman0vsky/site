@@ -1,0 +1,19 @@
+.contacts__links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+@media (max-width: 1160px) {
+  .contacts__links-container {
+    gap: 2px;
+  }
+}
+@media (max-width: 1024px) {
+  .contacts__links-container {
+    gap: 8px;
+  }
+}

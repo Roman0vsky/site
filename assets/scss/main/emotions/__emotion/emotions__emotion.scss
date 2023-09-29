@@ -1,0 +1,20 @@
+.emotions__emotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: #fff;
+  font-size: 20px;
+  padding: 8px 16px;
+  gap: 16px;
+  user-select: none;
+  min-width: fit-content;
+
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 14px;
+  }
+}

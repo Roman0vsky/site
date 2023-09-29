@@ -1,0 +1,5 @@
+@import '../../../mixins';
+.banner__anchor {
+  @include link;
+  display: flex;
+}

@@ -1,0 +1,84 @@
+.modal__text-field {
+  font-size: 32px;
+  border: none;
+  border-bottom: 2px solid #000;
+  max-width: 700px;
+  width: 100%;
+  height: 54px;
+  margin-top: 24px;
+}
+.modal__text-field::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.modal__text-field::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.modal__text-field:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.modal__text-field::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.modal__text-field::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.modal__text-field:focus, .modal__text-field:active {
+  outline: none;
+}
+@media (max-width: 1024px) {
+  .modal__text-field {
+    font-size: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .modal__text-field {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .modal__text-field {
+    font-size: 28px;
+  }
+}
+@media (max-width: 425px) {
+  .modal__text-field {
+    font-size: 24px;
+  }
+}
+
+.modal__text-field_error {
+  border-color: #ff004c;
+}
+.modal__text-field_error::-webkit-input-placeholder {
+  color: rgba(255, 0, 76, 0.3);
+}
+.modal__text-field_error::-moz-placeholder {
+  color: rgba(255, 0, 76, 0.3);
+}
+.modal__text-field_error:-ms-input-placeholder {
+  color: rgba(255, 0, 76, 0.3);
+}
+.modal__text-field_error::-ms-input-placeholder {
+  color: rgba(255, 0, 76, 0.3);
+}
+.modal__text-field_error::placeholder {
+  color: rgba(255, 0, 76, 0.3);
+}
+
+.modal__text-field_first,
+.modal__text-field_second {
+  max-width: 294px;
+  width: 100%;
+}
+@media (max-width: 623px) {
+  .modal__text-field_first,
+  .modal__text-field_second {
+    max-width: none;
+  }
+}
+
+@media (max-width: 623px) {
+  .modal__text-field_second {
+    margin-top: 0;
+  }
+}

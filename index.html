@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/libs/swiper/swiper.min.css" />
+    <title>Super Quiz</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Super Quiz</h1>
+      <nav class="nav">
+        <a class="nav__link" href="#banner__title">Главная</a>
+        <a class="nav__link" href="#tests">Квиз</a>
+        <a class="nav__link" href="#swiper">Отзывы</a>
+        <div class="nav__dropdown">
+          <button class="nav__dropdown-btn">
+            Не главная
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="nav__dropdown-content">
+            <a class="nav__dropdown-link" href="#">Подпункт</a>
+            <a class="nav__dropdown-link" href="#">Еще подпункт</a>
+            <a class="nav__dropdown-link" href="#">И еще один подпункт</a>
+          </div>
+        </div>
+      </nav>
+      <div class="contacts">
+        <button class="contacts__button">Связаться с нами</button>
+        <div class="contacts__links-container">
+          <a class="contacts__link" href="">
+            <img src="./assets/img/image 1.png" alt="TT" />
+          </a>
+          <a class="contacts__link" href="">
+            <img src="./assets/img/image 2.png" alt="VK" />
+          </a>
+          <a class="contacts__link" href="">
+            <img src="./assets/img/image 3.png" alt="TG" />
+          </a>
+        </div>
+      </div>
+
+      <ul class="menu">
+        <li class="menu__item"><a href="#banner__title">Главная</a></li>
+        <li class="menu__item"><a href="#tests">Квиз</a></li>
+        <li class="menu__item"><a href="#swiper">Отзывы</a></li>
+
+        <div class="contacts contacts_menu">
+          <button class="contacts__button">Связаться с нами</button>
+          <div class="contacts__links-container">
+            <a class="contacts__link" href="">
+              <img src="./assets/img/image 1.png" alt="TT" />
+            </a>
+            <a class="contacts__link" href="">
+              <img src="./assets/img/image 2.png" alt="VK" />
+            </a>
+            <a class="contacts__link" href="">
+              <img src="./assets/img/image 3.png" alt="TG" />
+            </a>
+          </div>
+        </div>
+      </ul>
+      <button class="menu__button"></button>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="banner__wrapper">
+          <h1 id="banner__title" class="banner__title">Это Супер-квиз!</h1>
+          <p class="banner__content">
+            Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех
+            людей, которые любят проходить тесты!
+          </p>
+          <a class="banner__anchor" href="#tests">
+            <button class="banner__button">Пройти супер-квиз</button>
+          </a>
+        </div>
+      </section>
+
+      <aside class="emotions">
+        <div class="emotions__emotion">
+          <img src="./assets/img/emotions/img1.png" alt="emotion1" />
+          Восхитительно
+        </div>
+        <div class="emotions__emotion">
+          <img src="./assets/img/emotions/img2.png" alt="emotion2" />
+          Лучше не бывает
+        </div>
+        <div class="emotions__emotion">
+          <img src="./assets/img/emotions/img3.png" alt="emotion3" />
+          Где найти еще?
+        </div>
+        <div class="emotions__emotion">
+          <img src="./assets/img/emotions/img4.png" alt="emotion4" />
+          В натуре четко!
+        </div>
+        <div class="emotions__emotion">
+          <img src="./assets/img/emotions/img3.png" alt="emotion3" />
+          Круто
+        </div>
+      </aside>
+
+      <section id="tests" class="tests">
+        <div class="list">
+          <div class="list__item list__item_first list__item_active">
+            <p class="list__item-title">Какие виды тестов вам нравятся?</p>
+            <p class="list__item-content"></p>
+          </div>
+
+          <div class="list__item list__item_second list__item_hidden">
+            <p class="list__item-title">Вы любите проходить тесты?</p>
+            <p class="list__item-content"></p>
+          </div>
+
+          <div class="list__item list__item_third list__item_hidden">
+            <p class="list__item-title">
+              Спасибо за ответы! Заполните форму ниже
+            </p>
+            <p class="list__item-content"></p>
+            <p class="list__item-content"></p>
+          </div>
+        </div>
+
+        <div class="tests__wrapper tests__wrapper_first">
+          <h1 class="tests__title">Какие виды тестов вам нравятся?</h1>
+          <p class="tests__content">
+            Многие из нас хоть раз попадались на эту удочку — хочешь пройти
+            всего один тест из интернета, и вдруг понимаешь, что пролетело
+            полдня.
+          </p>
+
+          <div class="tests__container">
+            <label class="checkbox-item" for="checkbox1"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox1"
+                id="checkbox1"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">На темперамент</span>
+            </label>
+            <label class="checkbox-item" for="checkbox2"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox2"
+                id="checkbox2"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">Кто я из вселенной Марвел</span>
+            </label>
+            <label class="checkbox-item" for="checkbox3"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox3"
+                id="checkbox3"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">Увидел это</span>
+            </label>
+            <label class="checkbox-item" for="checkbox4"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox4"
+                id="checkbox4"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">Мое тотемное животное</span>
+            </label>
+            <label class="checkbox-item" for="checkbox5"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox5"
+                id="checkbox5"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">На IQ</span>
+            </label>
+            <label class="checkbox-item" for="checkbox6"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox6"
+                id="checkbox6"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">На словарный запас</span>
+            </label>
+            <label class="checkbox-item" for="checkbox7"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox7"
+                id="checkbox7"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">На логическое мышление</span>
+            </label>
+            <label class="checkbox-item" for="checkbox8"
+              ><input
+                class="checkbox-item__checkbox"
+                type="checkbox"
+                name="checkbox8"
+                id="checkbox8"
+              />
+              <span class="checkbox-item__cross">╳</span>
+              <span class="checkbox-item__text">На уровень интеллекта</span>
+            </label>
+          </div>
+          <button class="tests__button tests__button_first">Продолжить</button>
+        </div>
+        <div class="tests__wrapper tests__wrapper_second tests__wrapper_hidden">
+          <h1 class="tests__title">Вы любите проходить тесты?</h1>
+          <p class="tests__content">
+            Нам важно узнать насолько часто Вы проходите тесты.
+          </p>
+
+          <div class="tests__container">
+            <label class="radio-item" for="radio1"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="radio1"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text"
+                >Нет, я не никогда не прохожу тесты</span
+              >
+            </label>
+
+            <label class="radio-item" for="radio2"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="radio2"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Да, я прохожу все тесты</span>
+            </label>
+
+            <label class="radio-item" for="radio3"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="radio3"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text"
+                >Заставляю себя проходить тесты</span
+              >
+            </label>
+            <label class="radio-item" for="radio4"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="radio4"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text"
+                >Не люблю проходить тесты, но иногда приходится</span
+              >
+            </label>
+          </div>
+          <div class="tests__button-container">
+            <button class="tests__button-back tests__button_second">
+              Назад
+            </button>
+            <button class="tests__button tests__button_second">
+              Продолжить
+            </button>
+          </div>
+        </div>
+        <div class="tests__wrapper tests__wrapper_third tests__wrapper_hidden">
+          <div class="tests__smile"></div>
+          <h1 class="tests__title">Спасибо за ответы! Заполните форму ниже</h1>
+          <p class="tests__content">
+            Ваше мнение важно для нас. Прикрепите фото с Вашей любимой картинкой
+            и оставьте комментарий насколько понравился Вам тест.
+          </p>
+
+          <input
+            type="text"
+            class="tests__text-field"
+            placeholder="Ваше мнение сюда"
+          />
+
+          <div class="select" data-state="">
+            <div class="select__title">Очень понравился</div>
+            <div class="select__content select__content_hidden">
+              <input
+                id="singleSelect1"
+                class="select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label for="singleSelect1" class="select__label"
+                >Очень понравился</label
+              >
+              <input
+                id="singleSelect2"
+                class="select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label for="singleSelect2" class="select__label"
+                >Не понравился</label
+              >
+              <input
+                id="singleSelect3"
+                class="select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label for="singleSelect3" class="select__label"
+                >Пройду еще раз</label
+              >
+              <input
+                id="singleSelect4"
+                class="select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label for="singleSelect4" class="select__label"
+                >Посоветую пройти всем</label
+              >
+            </div>
+          </div>
+
+          <div class="tests__button-container">
+            <button class="tests__button-back tests__button_third">
+              Назад
+            </button>
+            <button class="tests__button tests__button_third">
+              Продолжить
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div id="swiper" class="swiper">
+        <div class="swiper-wrapper swiper__wrapper">
+          <div class="swiper-slide swiper__slide">
+            <div class="swiper__slide-content slide-content">
+              <div class="slide-content__img">
+                <img src="./assets/img/avatars/Ellipse 1.png" alt="avatar" />
+              </div>
+              <div class="slide-content__name">Тимур Никитенко</div>
+              <div class="slide-content__text">Мне очень понравился тест.</div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <div class="swiper__slide-content slide-content">
+              <div class="slide-content__img">
+                <img src="./assets/img/avatars/Ellipse 2.png" alt="avatar" />
+              </div>
+              <div class="slide-content__name">Андрей Пархимович</div>
+              <div class="slide-content__text">
+                В целом, конечно, постоянное информационно-пропагандистское
+                обеспечение нашей деятельности влечет за собой процесс внедрения
+                и модернизации направлений прогрессивного развития.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <div class="swiper__slide-content slide-content">
+              <div class="slide-content__img">
+                <img src="./assets/img/avatars/Ellipse 1.png" alt="avatar" />
+              </div>
+              <div class="slide-content__name">Тимур Никитенко</div>
+              <div class="slide-content__text">
+                Господа, глубокий уровень погружения в значительной степени
+                обусловливает важность глубокомысленных рассуждений.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <div class="swiper__slide-content slide-content">
+              <div class="slide-content__img">
+                <img src="./assets/img/avatars/Ellipse 3.png" alt="avatar" />
+              </div>
+              <div class="slide-content__name">Артур Усович</div>
+              <div class="slide-content__text">
+                Задача организации, в особенности же убеждённость некоторых
+                оппонентов предопределяет высокую востребованность благоприятных
+                перспектив.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <div class="swiper__slide-content slide-content">
+              <div class="slide-content__img">
+                <img src="./assets/img/avatars/Ellipse 1.png" alt="avatar" />
+              </div>
+              <div class="slide-content__name">Егор Грей</div>
+              <div class="slide-content__text">
+                Разнообразный и богатый опыт говорит нам, что высокое качество
+                позиционных исследований предопределяет высокую востребованность
+                кластеризации усилий.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev swiper__button"></div>
+        <div class="swiper-button-next swiper__button"></div>
+      </div>
+
+      <div class="modal modal_first modal_hidden">
+        <div class="modal__form">
+          <button class="modal__close-button">╳</button>
+          <h1 class="modal__title">Заполните контактные данные</h1>
+          <p class="modal__text">
+            Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех
+            людей, которые любят проходить тесты!
+          </p>
+          <div class="modal__text-field-container">
+            <input
+              type="text"
+              class="modal__text-field modal__text-field_first"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="modal__text-field modal__text-field_second"
+              placeholder="Фамилия"
+            />
+          </div>
+          <input
+            type="text"
+            class="modal__text-field modal__text-field_third"
+            placeholder="Ваш комментарий"
+          />
+          <input
+            class="modal__file-input"
+            type="file"
+            data-before="Приложить файлы"
+          />
+          <div
+            class="modal__file-input-warning modal__file-input-warning_hidden"
+          ></div>
+          <p class="modal__text">
+            Этот квиз предназначен для тех людей, которые любят проходить тесты!
+          </p>
+          <div class="modal__radio-container">
+            <label class="radio-item" for="modalradio1"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio1"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Не знаю</span>
+            </label>
+            <label class="radio-item" for="modalradio2"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio2"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Увидел это</span>
+            </label>
+            <label class="radio-item" for="modalradio3"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio3"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Вон то</span>
+            </label>
+            <label class="radio-item" for="modalradio4"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio4"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Вон то</span>
+            </label>
+            <label class="radio-item" for="modalradio5"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio5"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Увидел это</span>
+            </label>
+            <label class="radio-item" for="modalradio6"
+              ><input
+                class="radio-item__radio"
+                type="radio"
+                name="radio"
+                id="modalradio6"
+              />
+              <span class="radio-item__circle"></span>
+              <span class="radio-item__text">Не знаю</span>
+            </label>
+          </div>
+          <button class="modal__button">Продолжить</button>
+        </div>
+      </div>
+
+      <div class="modal modal_second modal_hidden">
+        <div class="modal__form">
+          <div class="modal__smile"></div>
+          <button class="modal__close-button">╳</button>
+          <h1 class="modal__title">Ваши данные Отправлены</h1>
+          <p class="modal__text modal__text_margin25">
+            Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех
+            людей, которые любят проходить тесты!
+          </p>
+          <button class="modal__button">Вернутся на сайт</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__contacts">
+          <div class="footer__contact">
+            <p class="footer__contact-title">Телефон</p>
+            <h2 class="footer__contact-content">+375 12 345 67 89</h2>
+          </div>
+          <div class="footer__contact">
+            <p class="footer__contact-title">Email</p>
+            <h2 class="footer__contact-content">ourmail@gmail.com</h2>
+          </div>
+        </div>
+        <div class="footer__links">
+          <a class="footer__link footer__link_first" href=""></a>
+          <a class="footer__link footer__link_second" href=""></a>
+          <a class="footer__link footer__link_third" href=""></a>
+        </div>
+      </div>
+      <h1 class="footer__logo">Super Quiz</h1>
+    </footer>
+
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 10,
+        initialSlide: 2,
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          550: {
+            slidesPerView: 2,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          },
+          1025: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+
+    <script src="./assets/js/customSelect.js"></script>
+    <script src="./assets/js/checkbox.js"></script>
+    <script src="./assets/js/radio.js"></script>
+    <script src="./assets/js/tests.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/menuBurger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.banner__anchor {
+  text-decoration: none;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.banner__anchor:hover, .banner__anchor:active {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,7 @@
+.modal__smile {
+  background: url("../../../../img/onesmile.png");
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  margin: 80px 0 24px;
+}

@@ -1,0 +1,22 @@
+@import "../../../mixins";
+
+.tests__button-back {
+  @include button;
+  width: fit-content;
+  margin-top: 64px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+
+  &:hover {
+    border-color: #9e00ff;
+    color: #fff;
+  }
+
+  &.tests__button_second,
+  &.tests__button_third {
+    @media (max-width: 800px) {
+      border-radius: 8px 8px 8px 16px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px 48px;
+}
+@media (max-width: 1354px) {
+  .footer__contacts {
+    margin: 48px 0;
+  }
+}

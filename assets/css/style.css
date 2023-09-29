@@ -1,0 +1,91 @@
+@import url("./global.css");
+
+@import url("./header/header.css");
+@import url("./header/logo/logo.css");
+@import url("./header/nav/nav.css");
+@import url("./header/nav/__link/nav__link.css");
+@import url("./header/nav/__dropdown/nav__dropdown.css");
+@import url("./header/nav/__dropdown-btn/nav__dropdown-btn.css");
+@import url("./header/nav/__dropdown-content/nav__dropdown-content.css");
+@import url("./header/nav/__dropdown-link/nav__dropdown-link.css");
+@import url("./header/contacts/contacts.css");
+@import url("./header/contacts/__button/contacts__button.css");
+@import url("./header/contacts/__link/contacts__link.css");
+@import url("./header/contacts/__links-container/contacts__links-container.css");
+@import url("./header/menu/menu.css");
+@import url("./header/menu/__button/menu__button.css");
+@import url("./header/menu/__item/menu__item.css");
+
+@import url("./footer/footer.css");
+@import url("./footer/__contact-content/footer__contact-content.css");
+@import url("./footer/__contact-title/footer__contact-title.css");
+@import url("./footer/__contact/footer__contact.css");
+@import url("./footer/__contacts/footer__contacts.css");
+@import url("./footer/__link/footer__link.css");
+@import url("./footer/__links/footer__links.css");
+@import url("./footer/__logo/footer__logo.css");
+@import url("./footer/__container/footer__container.css");
+
+@import url("./main/main.css");
+/****** banner ******/
+@import url("./main/banner/banner.css");
+@import url("./main/banner/__anchor/banner__anchor.css");
+@import url("./main/banner/__title/banner__title.css");
+@import url("./main/banner/__button/banner__button.css");
+@import url("./main/banner/__content/banner__content.css");
+@import url("./main/banner/__wrapper/banner__wrapper.css");
+/****** emotions ******/
+@import url("./main/emotions/emotions.css");
+@import url("./main/emotions/__emotion/emotions__emotion.css");
+/****** tests ******/
+@import url("./main/tests/tests.css");
+@import url("./main/tests/__button/tests__button.css");
+@import url("./main/tests/__button-back/tests__button-back.css");
+@import url("./main/tests/__button-container/tests__button-container.css");
+@import url("./main/tests/__container/tests__container.css");
+@import url("./main/tests/__content/tests__content.css");
+@import url("./main/tests/__title/tests__title.css");
+@import url("./main/tests/__smile/tests__smile.css");
+@import url("./main/tests/__wrapper/tests__wrapper.css");
+@import url("./main/tests/__text-field/tests__text-field.css");
+
+@import url("./main/tests/select/select.css");
+@import url("./main/tests/select/__content/select__content.css");
+@import url("./main/tests/select/__input/select__input.css");
+@import url("./main/tests/select/__label/select__label.css");
+@import url("./main/tests/select/__title/select__title.css");
+
+@import url("./main/tests/list/list.css");
+@import url("./main/tests/list/__item/list__item.css");
+@import url("./main/tests/list/__item-title/list__item-title.css");
+@import url("./main/tests/list/__item-content/list__item-content.css");
+
+@import url("./main/tests/radio-item/radio-item.css");
+@import url("./main/tests/radio-item/__radio/radio-item__radio.css");
+@import url("./main/tests/radio-item/__circle/radio-item__circle.css");
+
+@import url("./main/tests/checkbox-item/checkbox-item.css");
+@import url("./main/tests/checkbox-item/__checkbox/checkbox-item__checkbox.css");
+@import url("./main/tests/checkbox-item/__cross/checkbox-item__cross.css");
+
+@import url("./main/modal/modal.css");
+@import url("./main/modal/__form/modal__form.css");
+@import url("./main/modal/__title/modal__title.css");
+@import url("./main/modal/__text/modal__text.css");
+@import url("./main/modal/__text-field/modal__text-field.css");
+@import url("./main/modal/__text-field-container/modal__text-field-container.css");
+@import url("./main/modal/__button/modal__button.css");
+@import url("./main/modal/__close-button/modal__close-button.css");
+@import url("./main/modal/__radio-container/modal__radio-container.css");
+@import url("./main/modal/__smile/modal__smile.css");
+@import url("./main/modal/__file-input/modal__file-input.css");
+@import url("./main/modal/__file-input-warning/modal__file-input-warning.css");
+/****** swiper ******/
+@import url("./main/swiper/swiper.css");
+@import url("./main/swiper/__button/swiper__button.css");
+@import url("./main/swiper/__slide/swiper__slide.css");
+@import url("./main/swiper/__wrapper/swiper__wrapper.css");
+@import url("./main/swiper/slide-content/slide-content.css");
+@import url("./main/swiper/slide-content/__img/slide-content__img.css");
+@import url("./main/swiper/slide-content/__name/slide-content__name.css");
+@import url("./main/swiper/slide-content/__text/slide-content__text.css");

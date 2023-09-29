@@ -1,0 +1,8 @@
+@import "../../../mixins";
+
+.modal__button {
+  @include button;
+  height: 62px;
+  margin-top: 64px;
+  font-size: 32px;
+}

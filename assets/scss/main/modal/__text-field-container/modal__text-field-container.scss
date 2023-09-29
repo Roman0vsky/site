@@ -1,0 +1,8 @@
+.modal__text-field-container {
+  display: flex;
+  gap: 24px;
+
+  @media (max-width: 623px) {
+    flex-direction: column;
+  }
+}

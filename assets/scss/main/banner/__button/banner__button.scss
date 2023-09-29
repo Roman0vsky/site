@@ -1,0 +1,5 @@
+@import '../../../mixins';
+
+.banner__button {
+  @include button;
+}

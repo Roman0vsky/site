@@ -1,0 +1,41 @@
+@import "../../../mixins";
+
+.modal__text-field {
+  @include input;
+  margin-top: 24px;
+
+  @media (max-width: 1024px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 24px;
+  }
+}
+
+.modal__text-field_error {
+  border-color: #ff004c;
+
+  &::placeholder {
+    color: rgba(255, 0, 76, 0.3);
+  }
+}
+
+.modal__text-field_first,
+.modal__text-field_second {
+  max-width: 294px;
+  width: 100%;
+
+  @media (max-width: 623px) {
+    max-width: none;
+  }
+}
+
+.modal__text-field_second {
+  @media (max-width: 623px) {
+    margin-top: 0;
+  }
+}
+
+.modal__text-field_third {
+}

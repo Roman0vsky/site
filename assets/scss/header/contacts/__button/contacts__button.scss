@@ -1,0 +1,5 @@
+@import "../../../mixins";
+
+.contacts__button {
+  @include button;
+}

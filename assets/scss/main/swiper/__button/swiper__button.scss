@@ -1,0 +1,12 @@
+.swiper__button {
+  width: 100px !important;
+  height: 100px !important;
+  background: #fff;
+  box-shadow: 0px 24px 35px 0px #9e00ff4d;
+  border-radius: 32px;
+  margin: 0 32px;
+
+  @media (max-width: 549px) {
+    display: none !important;
+  }
+}

@@ -1,0 +1,29 @@
+.menu__item {
+  position: relative;
+  font-size: 20px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  min-height: 55px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+}
+.menu__item:hover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg) translateY(-50%);
+          transform: rotate(45deg) translateY(-50%);
+}
+.menu__item a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+}

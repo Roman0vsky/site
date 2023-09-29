@@ -1,0 +1,10 @@
+.footer__logo {
+  font-size: 36px;
+  color: #fff;
+  align-self: flex-end;
+  user-select: none;
+
+  @media (max-width: 1354px) {
+    order: -1;
+  }
+}

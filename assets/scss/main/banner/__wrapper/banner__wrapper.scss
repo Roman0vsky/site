@@ -1,0 +1,20 @@
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  height: 470px;
+  background: url("../../../../img/Group\ 5.png") left bottom no-repeat,
+    url("../../../../img/Group\ 6.png") right bottom no-repeat;
+
+  @media (max-width: 1024px) {
+    padding: 0 16px;
+    background-size: 35%;
+  }
+
+  @media (max-width: 425px) {
+    align-items: flex-start;
+    height: 424px;
+  }
+}

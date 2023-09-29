@@ -1,0 +1,6 @@
+@import "../../../../mixins";
+
+.radio-item__circle {
+  @include circle;
+  position: relative;
+}

@@ -1,0 +1,15 @@
+.swiper__slide {
+  box-sizing: border-box;
+  background: #fff;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 352px;
+  border-radius: 32px;
+  background-image: url('../../../../img/cardbg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 8px;
+}

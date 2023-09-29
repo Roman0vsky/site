@@ -1,0 +1,78 @@
+.radio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 8px 32px;
+  font-size: 24px;
+  gap: 8px;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+  cursor: pointer;
+}
+.radio-item:hover {
+  color: #fff;
+  background-color: #9e00ff;
+  border-color: #9e00ff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.radio-item:hover .radio-item__circle {
+  border-color: #9e00ff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+@media (max-width: 1024px) {
+  .radio-item {
+    font-size: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .radio-item {
+    font-size: 16px;
+  }
+}
+
+.radio-item_checked {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.radio-item_checked:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.radio-item_checked .radio-item__circle {
+  border-color: #fff;
+}
+.radio-item_checked .radio-item__circle::after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #000;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.radio-item_checked:hover .radio-item__circle {
+  border: #fff;
+}
+.radio-item_checked:hover .radio-item__circle::after {
+  background-color: #9e00ff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}

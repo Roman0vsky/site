@@ -1,0 +1,14 @@
+@import "../../../mixins";
+
+.tests__button {
+  @include button;
+  width: fit-content;
+  margin-top: 64px;
+
+  &.tests__button_second,
+  &.tests__button_third {
+    @media (max-width: 800px) {
+      border-radius: 8px 8px 16px 8px;
+    }
+  }
+}

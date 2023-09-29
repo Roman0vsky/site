@@ -1,0 +1,6 @@
+@import "../../../mixins";
+
+.tests__text-field {
+  @include input;
+  margin-bottom: 23px;
+}

@@ -1,0 +1,26 @@
+.nav__dropdown-link {
+  display: block;
+  float: none;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #000;
+  border-radius: 16px;
+  margin-top: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.nav__dropdown-link:hover {
+  background-color: #9e00ff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+@media (max-width: 1150px) {
+  .nav__dropdown-link {
+    font-size: 16px;
+  }
+}

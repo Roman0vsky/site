@@ -1,0 +1,14 @@
+.footer__contact-title {
+  font-size: 20px;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .footer__contact-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .footer__contact-title {
+    font-size: 14px;
+  }
+}

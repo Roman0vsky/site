@@ -1,0 +1,35 @@
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+@media (max-width: 1200px) {
+  .contacts {
+    gap: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 415px;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .contacts {
+    display: none;
+  }
+}
+.contacts_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin: 70px auto 16px;
+}

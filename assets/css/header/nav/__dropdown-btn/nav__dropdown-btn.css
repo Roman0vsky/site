@@ -1,0 +1,18 @@
+.nav__dropdown-btn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  min-width: 139px;
+}
+@media (max-width: 1150px) {
+  .nav__dropdown-btn {
+    font-size: 16px;
+    min-width: 119px;
+  }
+}

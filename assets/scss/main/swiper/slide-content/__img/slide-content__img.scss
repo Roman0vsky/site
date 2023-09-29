@@ -1,0 +1,12 @@
+.slide-content__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  background: #fff;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

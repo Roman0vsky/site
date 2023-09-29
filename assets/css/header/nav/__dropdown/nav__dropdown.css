@@ -1,0 +1,19 @@
+.nav__dropdown {
+  float: left;
+  overflow: hidden;
+}
+.nav__dropdown:hover .nav__dropdown-content {
+  display: block;
+}
+.nav__dropdown:hover .nav__dropdown-btn {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+.nav__dropdown:hover .nav__dropdown-btn:hover {
+  background-color: #9e00ff;
+  color: #fff;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
